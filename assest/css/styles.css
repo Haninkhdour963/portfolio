@@ -1,0 +1,374 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+:root{
+    --main-color: #588D11;
+    --secondery-color: #434342;
+    --text-color: #333;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(255,255,255);
+    background: linear-gradient(81deg, rgba(255,255,255,0.6560749299719888) 0%, rgba(242,183,219,1) 25%, rgba(255,254,215,1) 100%);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.986rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+}
+
+h3 {
+    font-size: 2.074rem;
+}
+
+h4 {
+    font-size: 1.728rem;
+}
+
+h5 {
+    font-size: 1.44rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+ 
+    color: rgb(134, 131, 131);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: rgb(134, 131, 131);
+    text-decoration: none;
+}
+
+.creative {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 2rem;
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+  
+}
+
+.creative .left {
+    padding: 2rem;
+   
+    
+}
+.creative .left h3 {
+    padding: 2rem;
+    color: #8a5d82;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800px;
+    line-height: 150px;
+    font-size: 100px;
+    text-align: center;
+
+}
+.creative .left h4 {
+    text-align: center;
+    padding: 2rem;
+    color: #8a5d82;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 72px;
+    font-size: 50px;
+
+}
+.creative .left p{
+    padding: 0rem;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height:20px;
+    color: #000;
+  
+    
+}
+
+.creative .right {
+    display: flex;
+    justify-content: center;
+   
+}
+.creative .right img {
+    width: 500px;
+    height: 700px;
+    
+   
+}
+
+.profile {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.about {
+    text-align: center;
+    padding: 2rem;
+}
+.about img{
+    text-align: center;
+    padding: 2rem;
+    width: 350px;
+    height: 350px;
+
+}
+.about h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #000;
+
+}
+.about h3 {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 34px;
+    Color:  #373737;
+    line-height: 53px;
+
+}
+
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skills {
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    justify-content: center;
+}
+
+
+.skills-images {
+    display: flex;
+   gap: 2rem;
+   
+}
+
+.skills-images img{
+   justify-content: center;
+    gap: 2rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+
+
+}
+.skills-bar {
+    max-width: 600px;
+    margin: 1rem auto;
+   
+}
+
+.bar {
+    background: #e7e7e7;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.bar span {
+    display: block;
+    height: 30px;
+    background: #d51c8d;
+    color: White;
+}
+
+.projects {
+    text-align: center;
+    padding: 2rem;
+}
+
+.projects h2 {
+    text-align: center;
+ 
+    font-family: 'Times New Roman', Times;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #000;
+
+}
+
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.card {
+    background-image: url(../images/bg.png);
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    background-size: 100% 100%;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.card h3 {
+    color: #8a5d82;
+    font-family: Arial, sans-serif;
+    font-weight: 600; 
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+}
+.card p {
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card .icon {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6e7ff3;
+    transition: color 0.3s;
+}
+.card .icon:hover {
+    color: #4a5db1; 
+}
+
+.contact {
+    text-align: center;
+    padding: 2rem;
+    background: rgb(134, 131, 131);
+    color: white;
+
+}
+.contact h2{
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+    .contact-info {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        background-image: url(../images/bg.png);
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .contact-info .btn-send{
+        background-image:url(../images/bg.png);
+        
+        background-size: 100% 100%;
+        text-align: center;
+        border-radius: 30px ;
+        border-color: #8a5d82;
+        width: 150px;
+        height: 40px;
+        margin: 0 8px;
+        text-decoration: line-through;
+        color: white;
+        font-size: 25px;
+        
+
+
+
+   }
+   
+
+    .contact-info textarea {
+        
+        width: 200px;
+        height: 40px;
+        margin: 0 8px;
+        padding-top: 8px;
+        text-align: center
+    }
+    .contact-info input {
+        
+        width: 200px;
+        height: 40px;
+        margin: 0 8px;
+        text-align: center
+    }
+    
+    
+.social-icons a,p {
+    background-image: url(../images/bg.png);
+    background-size: 100% 100%;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .creative {
+        grid-template-columns: 1fr;
+    }
+
+    .about-details {
+        flex-direction: column;
+    }
+
+    .skills-images {
+        flex-direction: column;
+        
+    }
+}
