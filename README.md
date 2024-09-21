@@ -8,7 +8,7 @@ Interactive Elements: Features smooth animations and hover effects to enhance us
 About Section: Provides insights into my background, skills, and passion for web development.
 Contact Form: Enables visitors to easily reach out for inquiries or collaboration.
 Technologies Used:
-HTML5, CSS3, and add JavaScript soon
+HTML5, CSS3, and add jquery soon
 CSS Grid and Flexbox for layout
 Font Awesome for icons
 This portfolio serves as a testament to my skills and creativity, reflecting my journey and dedication in the field of web development.
