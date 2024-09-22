@@ -3,7 +3,7 @@
 https://haninkhdour963.github.io/portfolio/
 
  ,This my portfolio is a professional  portfolio website designed to showcase my skills, experience, and projects as a web developer. Inspired by the elegant design of Anastasia Bird Designer,
- https://anastasiabirddesigner.ru/  , this portfolio emphasizes a clean, user-friendly interface with a focus on visual appeal and accessibility.
+  , this portfolio emphasizes a clean, user-friendly interface with a focus on visual appeal and accessibility.
 
 #Key Features:
 
